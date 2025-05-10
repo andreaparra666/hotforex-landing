@@ -21,6 +21,9 @@ $(document).ready(function() {
       phone: {
         required: true,
         digits: true 
+      },
+      country: {
+        required: true
       }
     },
     // error messages
@@ -35,7 +38,8 @@ $(document).ready(function() {
       phone: {
         required: "Please enter your phone number",
         digits: "Please enter only numbers for the phone number"
-      }
+      },
+        country: "Please select your country"
     },
     errorElement: 'div',
     errorClass: 'invalid-feedback',
