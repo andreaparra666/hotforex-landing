@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>HotForex App</title>
+        <link rel="icon" href="assets/images/icon.webp" type="image/x-icon" />
+        <meta name="description" content="Download the HotForex App – your indispensable trading tool. Access advanced trading features, real-time market updates, and seamless account management all in one place. Available on iOS and Android.">
+        <meta name="keywords" content="HotForex, App, Trading, Forex, CFDs, Download, iOS, Android">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+    </head>
+    <body>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container d-flex justify-content-between align-items-center">
+                <!-- logo -->
+                <a class="navbar-brand" href="#">
+                <img src="assets/images/logo.png" alt="HotForex Logo" height="80">
+                </a>
+                <!-- Hamburger -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--  Nav Menu -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item d-none d-lg-block">
+                            <a class="nav-link text-gray" href="/"><i class="fa-solid fa-house-chimney"></i></a>
+                        </li>
+                        <li class="nav-item  d-lg-none">
+                            <a class="nav-link text-gray" href="/">Home</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Accounts</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Platforms</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Tools</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Education</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Hero -->
+        <section class="hero text-white text-center pt-5">
+            <div class="container">
+                <div class="row">
+                    <!-- hero content -->
+                    <div class="col-lg-5  mx-auto text-start pb-5">
+                        <h1>HotForex App</h1>
+                        <h2 >Your Indispensable Tool</h2>
+                        <ul>
+                            <li>Lorem ipsum is simply dummy text of the printing</li>
+                            <li>Lorem ipsum is simply dummy text</li>
+                            <li>Lorem ipsum is simply dummy text of the printing</li>
+                        </ul>
+                        <!-- download buttons -->
+                        <div class="d-flex  flex-row  align-items-center gap-3 mt-5">
+                            <a href="#" target="_blank">
+                            <img src="assets/images/google-play.webp" 
+                                alt="Download on Google Play" 
+                                class="app-button img-fluid" />
+                            </a>
+                            <a href="#" target="_blank">
+                            <img src="assets/images/app-store.webp" 
+                                alt="Download on App Store" 
+                                class="app-button img-fluid" />
+                            </a>
+                        </div>
+                    </div>
+                    <!-- image  -->
+                    <div class="col-lg-7 mx-auto d-flex align-items-end">
+                        <img src="assets/images/hero-mockup.webp" alt="Mockup" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Form Section  need to come back to this-->
+        <section class="bg-white py-5">
+            <div class="container">
+                <form class="row g-3 align-items-stretch">
+                    <div class="col-md-6 col-lg-3">
+                        <input type="text" class="form-control" placeholder="First Name*" name="first_name" id="first_name" required />
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <input type="text" class="form-control" placeholder="Last Name*" name="last_name" id="last_name" required/>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <input type="email" class="form-control" placeholder="Email*" name="email" id="email" required />
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="accepted" id="privacy_policy" name="privacy_policy" required>
+                            <label class="form-check-label" for="privacy_policy">
+                            I have read and accepted the privacy policy Trading Forex & CFDs is risky
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <select class="form-select" name="country" id="country">
+                            <option selected >-- Country of Residence --</option>
+                            <option value="Mexico">Mexico</option>
+                            <option value="United States">United States</option>
+                            <option value="Venezuela">Venezuela</option>
+                        </select>
+                    </div>
+                    <div class="col-3 col-md-2 col-lg-1">
+                        <select class="form-select" name="country_code" id="country_code">
+                            <option selected>+00</option>
+                            <option value="+52">+52</option>
+                            <option value="+1">+1</option>
+                            <option value="+58">+58</option>
+                        </select>
+                    </div>
+                    <div class="col-9 col-md-4 col-lg-2">
+                        <input type="tel" class="form-control" placeholder="Phone" name="phone" id="phone" pattern="^[+]*[(]?[0-9]{1,4}[)]?[-\s./0-9]*$" required/>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <select class="form-select" name="currency" id="currency">
+                            <option selected >-- Currency --</option>
+                            <option value="MXN">MXN</option>
+                            <option value="USD">USD</option>
+                            <option value="VEF">VEF</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6 col-lg-3 d-flex">
+                        <button class="btn btn-primary w-100 h-100" type="submit" id="submit_form">REGISTER NOW</button>
+                    </div>
+                    <div id="success-message" class="col-12 alert alert-success mt-3 rounded-0" style="display: none;">
+                        Thank you! Your form has been submitted successfully.
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- Features Light -->
+        <section class="bg-image-light py-5">
+            <div class="container text-center">
+                <!-- title -->
+                <h2 class="h4 fw-bold">This is dummy text</h2>
+                <div class="row align-items-center mt-4 gx-4 justify-content-center">
+                    <div class="col-md-3 col-lg-3 text-lg-end order-2 order-md-1">
+                        <!-- blurb  -->
+                        <img class="w-50" src="./assets/images/icon-1.webp" alt="Icon" />
+                        <p class="mt-2">It is a long established fact that a reader</p>
+                        <!-- blurb  -->
+                        <img class="w-50" src="./assets/images/icon-2.webp" alt="Icon" />
+                        <p class="mt-2 ">It is a long established fact that a reader</p>
+                    </div>
+                    <!-- image -->
+                    <div class="col-md-6 col-lg-4 order-1 order-md-2">
+                        <img src="./assets/images/phones.webp" class="img-fluid" alt="Phones" />
+                    </div>
+                    <div class="col-md-3 col-lg-3 text-lg-start order-3 order-md-3">
+                        <!-- blurb  -->
+                        <img class="w-50" src="./assets/images/icon-3.webp" alt="Icon" />
+                        <p class="mt-2">The standard chunk of Lorem Ipsum</p>
+                        <!-- blurb  -->
+                        <img class="w-50" src="./assets/images/icon-4.webp" alt="Icon" />
+                        <p>The standard chunk of Lorem Ipsum</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Features Dark -->
+        <section class="bg-image-dark text-white text-center pt-5">
+            <div class="container">
+                <div class="row">
+                    <!-- image -->
+                    <div class="col-lg-6 mx-auto d-flex align-items-end order-2 order-lg-1">
+                        <img src="assets/images/phones-2.webp" alt="Mockup" class="img-fluid">
+                    </div>
+                    <!-- content -->
+                    <div class="col-lg-6  mx-auto my-auto text-start pb-5 order-1 order-lg-2">
+                        <h2 class="h3 mb-4 fw-bold">What is Lorem Ipsum?<br>
+                            Lorem Ipsum is simply dummy
+                        </h2>
+                        <h3 class="h4 text-primary">
+                            Lorem Ipsum passages
+                        </h3>
+                        </h3>
+                        <p class="mb-4">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                        </p>
+                        <h3 class="h4 text-primary">
+                            Lorem Ipsum passages
+                        </h3>
+                        </h3>
+                        <p class="mb-4">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                        </p>
+                        <h3 class="h4 text-primary">
+                            Lorem Ipsum passages
+                        </h3>
+                        </h3>
+                        <p class="mb-4">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Download CTA  -->
+        <section class="bg-white py-5">
+            <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-lg-6 mx-auto text-center">
+                    <p>
+                        Contrary to popular belief, Lorem Ipsum is not simply random text.<br>
+                        It has roots in a piece of classical Latin literature from 45 BC,<br>
+                        making it over 2000 years old.
+                    </p>
+                    <p><strong>DOWNLOAD IT NOW!</strong></p>
+                    <!-- download buttons -->
+                    <div class="d-flex  flex-row justify-content-center align-items-center gap-3 mt-5">
+                        <a href="#" target="_blank">
+                        <img src="assets/images/google-play.webp" 
+                            alt="Download on Google Play" 
+                            class="app-button img-fluid" />
+                        </a>
+                        <a href="#" target="_blank">
+                        <img src="assets/images/app-store.webp" 
+                            alt="Download on App Store" 
+                            class="app-button img-fluid" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer>
+            <!-- Top bar  -->
+            <section class="bg-dark-2">
+                <div class="container">
+                    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center py-3">
+                        <div class="mb-3 mb-md-0">
+                            <i class="fas fa-trophy text-primary me-2"></i>
+                            <span>Winner of 19 Industry Awards</span>
+                        </div>
+                        <div>
+                            <a href="#" class="text-white me-3" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="text-white me-3" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="text-white me-3" target="_blank"><i class="fab fa-google-plus-g"></i></a>
+                            <a href="#" class="text-white me-3" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="text-white me-3" target="_blank"><i class="fab fa-youtube"></i></a>
+                            <a href="#" class="text-white" target="_blank"><i class="fas fa-chart-bar"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-dark-3 py-5">
+                <!-- Footer links -->
+                <div class="container">
+                    <div class="row text-start">
+                        <div class="col-6 col-md-4 col-lg-2">
+                            <h6 class="text-uppercase fw-bold">Contact Us</h6>
+                            <a href="mailto:support@hfeu.com" class="d-block"><i class="fas fa-envelope text-primary me-2"></i> support@hfeu.com</a>
+                            <a href="tel:35724400165" class="d-block"><i class="fas fa-phone text-primary me-2"></i> +357-24-400165</a>
+                            <a href="#" class="d-block"><i class="fas fa-comments text-primary me-2"></i> Live Chat</a>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2">
+                            <h6 class="text-uppercase fw-bold">About</h6>
+                            <ul class="list-unstyled">
+                                <li><a href="#">About HotForex</a></li>
+                                <li><a href="#">Why HotForex</a></li>
+                                <li><a href="#">Regulation and License</a></li>
+                                <li><a href="#">Security of Funds</a></li>
+                                <li><a href="#">Awards</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2">
+                            <h6 class="text-uppercase fw-bold">Products</h6>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Forex</a></li>
+                                <li><a href="#">Metals and Oil</a></li>
+                                <li><a href="#">Indices</a></li>
+                                <li><a href="#">Shares</a></li>
+                                <li><a href="#">Commodity CFDs</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2">
+                            <h6 class="text-uppercase fw-bold">Trading</h6>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Trading Tools</a></li>
+                                <li><a href="#">Forex Education</a></li>
+                                <li><a href="#">Platforms</a></li>
+                                <li><a href="#">Account Types</a></li>
+                                <li><a href="#">Exclusive Analysis</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2">
+                            <h6 class="text-uppercase fw-bold">Promotions</h6>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Loyalty Program</a></li>
+                                <li><a href="#">Bonus Offerings</a></li>
+                                <li><a href="#">Contests & Rewards</a></li>
+                                <li><a href="#">Free Funding</a></li>
+                                <li><a href="#">Deposit</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2">
+                            <h6 class="text-uppercase fw-bold">Affiliates</h6>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Affiliates</a></li>
+                                <li><a href="#">About HF Affiliates</a></li>
+                                <li><a href="#">Affiliate Types</a></li>
+                                <li><a href="#">Marketing Tools</a></li>
+                                <li><a href="#">Analytics</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- jQuery   -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <!-- jQuery Validation Plugin -->
+        <script src="assets/js/jquery.validate.min.js"></script>
+        <!-- Custom JS -->
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
